@@ -83,7 +83,7 @@ int main()
 		goto end;
 	}
 
-	fprintf(stderr, "\nDecoding codec is : %s\n", Codec->name);
+	printf("\nDecoding codec is : %s\n", Codec->name);
 
 
 	// clear and out
